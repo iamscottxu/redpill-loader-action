@@ -1,12 +1,15 @@
 {
   "extra_cmdline": {
-    "vid": "0x46f4",
-    "pid": "0x0001",
+    "vid": "0x0000",
+    "pid": "0x0000",
     "sn": "1350PDN001692",
     "mac1": "001132C7065E"
   },
   "synoinfo": {
     "supportsystemperature": "no",
-    "supportsystempwarning": "no"
+    "supportsystempwarning": "no",
+    "SataPortMap": "8",
+    "sata_remap": "03>16:04>00:05>01:06>02:07>03:00>04:01>05:02>06",
+    "netif_num": 2
   }
 }
