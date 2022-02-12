@@ -24,7 +24,7 @@
           "echo Starting kernel with USB boot"
         ]
       },
-      RedPill DS918+ v7.0.1-42218 (SATA, Verbose)": {
+      "RedPill DS918+ v7.0.1-42218 (SATA, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,msdos1)",
