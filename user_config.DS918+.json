@@ -6,36 +6,8 @@
     "mac1": "001132C7065E"
   },
   "synoinfo": {
-    "supportsystemperature": "no",
-    "supportsystempwarning": "no",
     "SataPortMap": "8",
-    "sata_remap": "03>16:04>00:05>01:06>02:07>03:00>04:01>05:02>06"
-  },
-  "grub": {
-    "menu_entries": {
-      "RedPill DS918+ v7.0.1-42218 (USB, Verbose)": {
-        "options": [
-          "savedefault",
-          "set root=(hd1,msdos1)",
-          "echo Loading Linux...",
-          "linux /zImage @@@CMDLINE@@@",
-          "echo Loading initramfs...",
-          "initrd /rd.gz /custom.gz",
-          "echo Starting kernel with USB boot"
-        ]
-      },
-      "RedPill DS918+ v7.0.1-42218 (SATA, Verbose)": {
-        "options": [
-          "savedefault",
-          "set root=(hd1,msdos1)",
-          "echo Loading Linux...",
-          "linux /zImage @@@CMDLINE@@@",
-          "echo Loading initramfs...",
-          "initrd /rd.gz /custom.gz",
-          "echo Starting kernel with SATA boot",
-          "echo WARNING: SATA boot support on this platform is experimental!"
-        ]
-      }
-    }
+    "DiskIdxMap": "04",
+    "SasIdxMap": "0"
   }
 }
