@@ -16,7 +16,7 @@
       "RedPill DS918+ v7.0.1-42218 (USB, Verbose)": {
         "options": [
           "savedefault",
-          "set root=(hd0,msdos1)",
+          "set root=(hd1,msdos1)",
           "echo Loading Linux...",
           "linux /zImage @@@CMDLINE@@@",
           "echo Loading initramfs...",
@@ -27,7 +27,7 @@
       "RedPill DS918+ v7.0.1-42218 (SATA, Verbose)": {
         "options": [
           "savedefault",
-          "set root=(hd0,msdos1)",
+          "set root=(hd1,msdos1)",
           "echo Loading Linux...",
           "linux /zImage @@@CMDLINE@@@",
           "echo Loading initramfs...",
