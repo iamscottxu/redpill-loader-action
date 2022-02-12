@@ -9,8 +9,8 @@ mkdir output
 cd DS3615xs-6.2.4
 
 # download redpill
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-load.git
+git clone --depth=1 https://github.com/jumkey/redpill-lkm.git
+git clone --depth=1 https://github.com/jumkey/redpill-load.git
 
 # download syno linux kernel
 curl --location "https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/25426branch/bromolow-source/linux-3.10.x.txz/download" --output linux-3.10.x.txz
